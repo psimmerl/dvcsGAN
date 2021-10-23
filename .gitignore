@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+models/epoch*
+imgs/plots*
+*.h5
+*.hdf5
+*.png
+*.npy
+*.gif
+*.root
