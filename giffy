@@ -1,0 +1,12 @@
+#!/bin/sh
+
+########################################################
+# This script is almost as slow as training the model! #
+########################################################
+
+cd models/
+for d in CM*/
+do 
+    echo Animating $d
+    convert -delay 10 -loop 0 `ls -tr $d/epoch*/plots_linear.png` $d/anim.gif
+done

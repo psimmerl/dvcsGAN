@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+models/*
+*.h5
+*.hdf5
+*.npy
+*.gif
+*.json
+*.pyc
+*.root
+data/*
